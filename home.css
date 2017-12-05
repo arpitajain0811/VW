@@ -1,0 +1,98 @@
+@font-face
+{
+font-family: Californian_FB;
+src: url('californian-fb.ttf');
+}
+ul {
+    list-style-type: none;
+    margin-top:60px;
+    margin-bottom:0px;
+    padding: 5px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: right;
+    font-family:Californian_FB;
+    font-size:15px;
+}
+
+li a,.dropbtn {
+    display: block;
+    text-align: center;
+    color:black;
+    padding: 0px 10px;
+    text-decoration: none;
+
+}
+
+li a:hover:not(.active) {
+    color: #cda1c4;
+}
+.dropdown:hover .dropbtn {
+  color:#cda1c4;
+}
+li.dropdown {
+  display:block;
+  z-index:100;
+  position:relative;
+  background-color:white;
+}
+.dropdown-content{
+  display:none;
+  position:relative;
+  min-width:40px;
+  box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
+  z-index:100;
+}
+.dropdown-content a:hover{
+  color: #cda1c4;
+}
+.dropdown-content a{
+  margin-top:5px;
+  margin-bottom:10px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+.active {
+    color:grey;
+}
+#icons {
+  margin-bottom:4%;
+  margin-left:3%;
+}
+input {
+  font-family:Californian_FB;
+  font-size:15px;
+}
+#hrg {
+left:48%;
+  position:absolute;;
+  padding:0;
+  margin:0px;
+  top:85px;
+  width:52%;
+  border-top: 1px solid #c1d804;
+}
+#hrl {
+left:0;
+  position:absolute;;
+  padding:0;
+  margin:0px;
+  top:89px;
+  width:50%;
+  border-top: 1px solid #cda1c4;
+}
+
+#content{
+  margin:100px;
+  text-align: justify;
+  z-index:-100;
+  position:absolute;
+  font-family:Californian_FB;
+  font-size: 18px;
+}
